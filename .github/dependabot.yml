@@ -5,8 +5,9 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm" # npm for Node.js
+    directory: "/frontend" # Path relative to the root of the repository
     schedule:
-      interval: "weekly"
+      interval: "weekly" # Dependabot will check for updates weekly
+
 
